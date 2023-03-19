@@ -93,7 +93,7 @@ button.navbar-toggle {
     margin-top: -10px;
 }
 .section2{
-    height: 212vh;
+    height: 200vh;
     background-color: #951C49;
     padding-top: 20px;
     margin-left: auto;
@@ -179,7 +179,7 @@ button.navbar-toggle {
     height: 35vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .section3{
     height: 40vh;
@@ -190,7 +190,7 @@ button.navbar-toggle {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    /* margin-top: 7px; */
+    margin-top: 60%;
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -318,6 +318,7 @@ button.navbar-toggle {
 }
 .section3{
     height: 40vh;
+    margin-top: 25%;
 }
 .section2{
     height: 198vh;
@@ -415,7 +416,7 @@ button.navbar-toggle {
     margin-right: 5px;
 }
 .section3{
-    margin-top: 539px;
+    margin-top: 90%;
 }
 .t-3-t{
     margin-left: 25%;
@@ -507,7 +508,7 @@ button.navbar-toggle {
     width: 93%;
 }
 .section3{
-    margin-top: 250px;
+    margin-top: 50px;
     height: 90vh;
     display:inline-block;
     text-align: center;
