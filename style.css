@@ -8,14 +8,16 @@
     background-color: #f6b319;
     padding-top: 10px;
 }
-.w-1-m{
+#w-1-m{
+    background: url("../img/restaurant-logo_large.png") no-repeat;
     width: 150px;
+    height: 150px;
     margin-left: 10%;
     padding-top: 0;
 }
 .w-2-m{
     margin-left: 23%;
-    margin-top: -145px;
+    margin-top: -120px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: 900;
@@ -38,38 +40,27 @@
     width: 30px;
     margin-left: 3%;
 }
-/*Top button section */
-.w-4-m{
-    text-decoration: none;
-}
-.nav-tab {
+
+#nav-tab {
     display: flex;
-    float: right;
-    margin-right: 60px;
-    margin-top: -50px;
-    list-style-type: none;
+    margin-top: -145px;
     color: #951C49;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.nav-tab a span{
-    font-size: 2.9rem;
+#nav-tab a span{
+    font-size: 2.5rem;
 }
 li a{
     color: #951C49;
-    font-size: 16px;
+    font-size: 15px;
 }
 li a span{
     font-weight: 700;
     font-size: 20px;
 }
-li a:hover{
-    background: white;
-    text-decoration: none;
-    display: block;
-}
 li{
     text-align: center;
-    margin-left: 25px;
+    margin-left: 10px;
     font-size: 18px;
 }
 .c-l{
@@ -77,14 +68,36 @@ li{
     font-size: 18px;
     margin-left: 80px;
 }
-.s-p{
+#s-p{
+    margin-top: 20px;
     font-size: 30px;
     line-height: 18px;
+    margin-right: 40px;
+}
+.section1 button.navbar-toggle, .section1 .icon-bar {
+    border: 1px solid #61122f;
+}
+button.navbar-toggle {
+    position:absolute;
+    float: none;
+    padding: 9px 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin-left: 90%;
+    margin-bottom: 1rem;
+}
+
+.section1 button.navbar-toggle {
+    margin-top: -10px;
 }
 .section2{
-    height: 190vh;
+    height: 212vh;
     background-color: #951C49;
     padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .s-2{
     width: 90%;
@@ -92,63 +105,90 @@ li{
     margin-left: auto;
     margin-right: auto;
 }
-.s-3{
-    margin-top: 25px;
-    margin-left: -50px;
-    position: absolute;
+.ss-22{
+    /* display: flex; */
+    flex: 0 auto;
+    margin-left: 66px;
+    margin-right: 110px;
+    justify-content: center;  
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 23%;
 }
 .s-3{
-    width: 410px;
+    width: 29%;
+    float: left;
+}
+.s-5{
+    width: 29%;
+    float: left;
+    margin-left: 7%;
+}
+.s-6{
+    width: 28%;
+    float: left;
+    margin-left: 6.5%;
 }
 .s-4:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 .s-4{
-    margin-left: 50px;
-    width: 380px;
+    width: 115%;
     height: 230px;
+    border: 2px solid #222;
+    background-position: center;
 }
 .s-s2{
     background-color: black;
     text-align: center;
     color: white;
-    width: 380px;
-    margin-left: 50px;
+    width: 115%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -49px;
     opacity: .8;
     padding: 10px;
     font-size: 20px;
-    position: absolute;
-}
-.s-5{
-    margin-left: 365px;
-    margin-top: 25px;
 }
 .s-6{
-    margin-left: 769px;
-    margin-top: -232px;
+    height: 30px;
 }
 .s-s3{
     background-color: black;
     text-align: center;
     color: white;
-    width: 380px;
-    margin-left: 50px;
+    width: 115%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 181px;
+    margin-top: -55px;
     opacity: .8;
     padding: 10px;
     font-size: 20px;
+    
+}
+.s-e-c-3{
+    opacity: .8;
+    padding-bottom: 80px;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t-3-t{
+    color: white;
+    /* background-color: #fff; */
+    margin-left: 38%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -30px;
     position: absolute;
+
 }
 .section3{
     height: 35vh;
     background-color: black;
     opacity: .8;
-    margin-right: 90px;
-    width: 1200px;
-    margin-top: 20px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -174,6 +214,60 @@ li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
+/**************Menu-categories***************/
+.mc-1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:20px;
+}
+.mc-2{
+    font-size: 18px;
+    line-height: 5px;
+}
+.mc-5{
+    /* position: relative; */
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.mc-5 span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    margin-right: 20%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* margin-right: 20px;  */
+}
+.mc-6{
+    width: 200px;
+    height: 200px;
+}
+.mc-7{
+    /* margin-left: -200px; */
+    /* justify-content: space-evenly; */
+    /* margin-top: 50px; */
+    /* margin-left: 5.5%; */
+}
+.mc-8{
+    /* display: block; */
+}
+.new-phase{
+    margin-top: 50px;
+}
 /***********LARGE DEVICES ONLY***************/
 @media (min-width: 1200px) {
     .s-2{
@@ -183,29 +277,251 @@ li{
 /***********MEDIUM DEVICES ONLY**************/
 @media (min-width: 992px) and (max-width: 1199px) {
 .section1{
-    height: 150px;
+    height: 170px;
     background-color: #f6b319;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: -100%;
 }
-.w-1-m{
-    width: 120px;
-    margin-left: 6%;
-    margin-top: -40px;
+#w-1-m{
+    background: url("../img/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    padding-right: 90px;
+    margin-left: 3%;
+    margin-top: -50px;
     padding-top: 0;
 }
 .w-2-m {
     margin-top: -120px;
-    margin-left: 18.5%;
+    margin-left: 19%;
+    line-height: 25px;
+}
+.w-3-m{
+    margin-left: 16.5%;
+}
+#nav-tab{
+    /* width: -15%; */
+    margin-right: -1%;
+    margin-top: -145px;
+    line-height: 10px;
+}
+#s-p{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+.ss-22{
+    margin-bottom: 28%;
+}
+.section3{
+    height: 40vh;
+}
+.section2{
+    height: 198vh;
+    background-color: #951C49;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**************Menu-categories***************/
+.mc-1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:20px;
+}
+.mc-2{
+    font-size: 18px;
+    line-height: 5px;
+}
+.mc-3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 80px; 
+    margin-left: 80px;
+}
+.mc-6{
+    width: 200px;
+    height: 200px;
+}
+.mc-7{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin-top: 50px; */
+    margin-left:-70%;
+}
+.mc-8{
+    display: block;
+}
+.new-phase{
+    margin-top: 50px;
+}
+}
+/******************Small devices*****************/
+@media (min-width: 768px) and (max-width: 991px){
+.section1{
+    height: 140px;
+}
+#w-1-m{
+    background: url("../img/restaurant-logo_medium.png") no-repeat;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    margin-left: 5%;
+}
+.w-2-m{
+    margin-top: -138px;
+    padding-top: 20px;
+    margin-left: 18%;
+    font-size: 1.5em;
+    line-height: 15px;
 }
 .w-3-m{
     margin-left: 16%;
-}  
-.nav-tab{
-    width: -10%;
-    margin-right: 2%;
+}
+#nav-tab a span{
+    font-size: 2.3rem;
+    /* margin-top: 45px; */
+}
+#nav-tab{
+    line-height: 10px;
+    margin-top: -77px;
+    margin-right: 10px;
+    line-height: 5px;
+}
+.s-3{
+    width: 45%;
+}
+.s-5 {
+    width: 45%;
+    margin-left: 55px;
+}
+.s-6{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: -0.5%;
+    width: 93%;
+}
+#collapsable-nav a span { /*Collapsed nav menu glyph*/
+    margin-right: 5px;
+}
+.section3{
+    margin-top: 539px;
+}
+.t-3-t{
+    margin-left: 25%;
+}
+#s-p{
+    /* margin-left: 10px; */
+}
+.c-1{
+    margin-left: 30px;
 }
 }
-@media (min-width: 768px) and (max-width: 991px){
-    
-} 
+/************Extra small devices**************/
+@media (max-width: 767px) {
+ .w-2-m{
+    padding-top: 10px;
+    font-size: 5vw;
+    margin-top: 12px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section1{
+    height: 22vh;
+}
+ .image1{
+    font-size: .6em;
+    margin-top: 12px;
+ }
+ .w-3-m{
+    margin-left: 1px;
+ }
+ .i-1{
+    margin-top: 16px;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #nav-tab{
+    margin-top: 30px;
+    display: list-item;
+ }
+ #collapsable-nav{
+    background-color: #f6b319;
+    position: relative;
+ }
+ li{
+    justify-content: center;
+    /* padding: auto; */
+    padding-right: 10px;
+    padding-left: 0px;
+ }
+ #call-btn > a{
+    text-align: center;
+    background-color: #f6b319;
+    border: 2px solid #fff;
+    font-size: 1.8em;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0 20px;
+    display: block;
+}
+#xs-deliver{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .7em;
+    letter-spacing: .1em;
+    color: white;
+    margin: 5px;
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    color: #951C49;
+    font-size: 30px;
+}
+.s-3{
+    width: 93%;
+
+}
+.s-5 {
+    float: left;
+    width: 93%;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.s-6{
+    float: left;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: -0.5%;
+    width: 93%;
+}
+.section3{
+    margin-top: 800px;
+    height: 80vh;
+    display: block;
+    text-align: center;
+
+}
+.section2{
+    height: 292vh;
+    background-color: #951C49;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t-3-t{
+    margin-left: 31%;
+}
+li a:hover{
+    background-color: #cccccc;
+    padding: .2rem .2rem .2rem;
+}
+}
