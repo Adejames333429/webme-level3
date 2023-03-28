@@ -295,8 +295,8 @@ button.navbar-toggle {
     /* right: 0; */
     overflow: hidden;
     text-align: center;
-    margin-left: 69.5%;
-    margin-top: 76px;
+    margin-left: 74.4%;
+    margin-top: 80px;
     position: absolute;
     padding: 2px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -316,6 +316,7 @@ button.navbar-toggle {
 }
 .sc-5{
     color: white;
+    margin-top: -55px;
     /* padding-right: 50px; */
     /* font-style: italic; */
     /* margin-right: 30px; */
@@ -344,13 +345,16 @@ button.navbar-toggle {
 .sc-7{
     /* margin-top: -10px; */
     font-size: 23px; 
-    margin: 0 0 0px;
+    margin: 10 10 10px;
     margin-left: 20px;
 }
 .sc-8{
     font-size: .9em;
     font-style: italic;
     margin-left: 20px;
+}
+.sc-9{
+    width: 115%;
 }
 /***********LARGE DEVICES ONLY***************/
 @media (min-width: 1200px) {
@@ -401,7 +405,7 @@ button.navbar-toggle {
     height: 40vh;
 }
 .section2{
-    height: 208vh;
+    height: 218vh;
     background-color: #951C49;
     padding-top: 20px;
     margin-left: auto;
@@ -443,6 +447,15 @@ button.navbar-toggle {
 .new-phase{
     margin-top: 50px;
 }
+/**************single-categiries menu thing*************/
+.sc-9{
+    width: 120%;
+}
+.sc-3{
+    margin-top: 80px;
+    margin-left: 73%;
+}
+
 }
 /******************Small devices*****************/
 @media (min-width: 768px) and (max-width: 991px){
@@ -522,25 +535,37 @@ button.navbar-toggle {
     margin-left: 200px;
 }
 .section2{
-    height: 262vh;
+    height: 255vh;
     background-color: #951C49;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.s-e-c-3{
-    margin-top: 170px;
+.mc-1{
+    margin-bottom: -1rem;
+}
+.section3{
+    margin-top: 230px;
+}
+.sc-5{
+    margin-left: -1px;
 }
 .sc-3{
     color: white;
     background-color: #557c3e;
-    width: 26%;
+    width: 28%;
     text-align: center;
-    margin-left: 73%;
-    margin-top: 76px;
+    margin-left: 71.2%;
+    margin-top: 81px;
     position: absolute;
     padding: 2px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.sc-9{
+    width: 110%;
+}
+.sc-4{
+    margin-left: 47%;
 }
 }
 /************Extra small devices**************/
@@ -649,65 +674,51 @@ li a:hover{
 }
 /*************SINGLE_CATEGORY*****************/
 .section2{
-    height: 310vh;
+    height: 480vh;
     background-color: #951C49;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+.section3{
+    margin-top: 30px;
+}
 .new-phase{
-    /* display: block; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* margin-right: 200px; */
     text-align: center;
-    /* max-width: 180%; */
 }
 
 #sc-1{
     margin-right: -120%;
     text-align: center;
-    /* padding-left: 30%; */
 }
 .sc-9{
-    /* max-width: 220px; */
-    margin-left: -90px;
+    margin-left: 10px;
+    width: 35%;
 }
 .sc-0{
     display:block;
     text-align: center;
-    /* margin-top: 1rem; */
-    /* max-width: 180%; */
-    /* text-align: center; */
-    /* justify-content: center; */
     margin-right: 50%;
 }
 .sc-7{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: 150%;
     width: 100%;
     text-align: center;
     margin-left: 65%;
-    /* display: inline-block; */
-    /* overflow: hidden; */
-    /* white-space: nowrap; */
 }
 #sc-3{
     background-color:#557c3e;
     /* margin-bottom: 40px; */
     color: white;
-    width: 12%;
+    width: 13%;
     padding: 3px;
-    margin-left: 46.2%;
-    margin-top: 10.6%;
+    margin-left: 52%;
+    margin-top: 79px;
 }
 .sc-4{
     margin-right: 31%;
 }
-/* hr{
-    width: 200%;
-    text-align:justify;
-} */
 .sc-8{
     margin: 0 0 10px;
     width: 215%;
@@ -716,15 +727,11 @@ li a:hover{
 .sc-5{
     text-align: center;
     max-width: 200%;
+    margin-top: 10px;
 }
-.s-e-c-3{
-    opacity: .8;
-    padding-bottom: 60px;
-    height: 35vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
+#v-x{
+    width: 200%;
+} 
 }
 @media (max-width: 479px) {
     .col-xxs-12 {
@@ -735,4 +742,11 @@ li a:hover{
         float: left;
         width: 100%;
       }
+      .section2{
+        /* height: 690vh; */
+        background-color: #951C49;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
